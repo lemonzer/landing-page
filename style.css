@@ -23,10 +23,12 @@ body {
 
 .links a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #e5e7eb;
 }
 
 .container {
+    background-color: #1F2937;
+    color: #f9faf8;
     display: flex;
 }
 
@@ -35,13 +37,30 @@ body {
     flex-direction: column;
 }
 
+.container-left h3 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.container-left p {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
 img {
     width: 300px;
 }
 
+
 .multi-image {
     display: flex;
     flex-direction: column;
+}
+
+.multi-image h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 ul {
@@ -55,8 +74,15 @@ li {
 }
 
 .quote {
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
 }
 
 .footer {
@@ -64,9 +90,9 @@ li {
 }
 
 .text {
+    color: #1f2937;
     display: flex;
     flex-direction: column;
-
 }
 
 
