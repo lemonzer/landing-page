@@ -66,8 +66,6 @@ body {
     width: 600px;
     height: 200px;
     object-fit: cover;
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -86,9 +84,12 @@ body {
 }
 
 .multi-image img {
-    width: 100px;
+    width: 140px;
     border-style: solid;
     border-radius: 8px;
+    border-color: #3882f6;
+    margin-bottom: 10px;
+    
 }
 
 ul {
@@ -99,8 +100,9 @@ li {
     
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
+    width: 200px;
     padding: 20px;
+    text-align: center;
 }
 
 .quote {
